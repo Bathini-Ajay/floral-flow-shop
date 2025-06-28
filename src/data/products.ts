@@ -56,6 +56,15 @@ export const products: Product[] = [
     description: 'Colorful and joyful bouquet perfect for birthday celebrations.',
     inStock: true,
   },
+  {
+    id: '7',
+    name: 'Traditional Jasmine Garland',
+    price: 65,
+    image: 'https://images.unsplash.com/photo-1574263867128-c63a9e4cdff1?w=400&h=400&fit=crop',
+    category: 'garlands',
+    description: 'Traditional white jasmine garland, perfect for religious ceremonies and cultural events.',
+    inStock: true,
+  },
 ];
 
 export const categories = [
