@@ -47,7 +47,7 @@ const ProductCard = ({ product, showAddToCart = true }: ProductCardProps) => {
           <h3 className="font-serif text-lg font-semibold text-gray-800 line-clamp-1">
             {product.name}
           </h3>
-          <span className="text-pink-600 font-bold text-lg">${product.price}</span>
+          <span className="text-pink-600 font-bold text-lg">₹{product.price}</span>
         </div>
         
         <p className="text-gray-600 text-sm mb-4 line-clamp-2">
